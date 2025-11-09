@@ -1,4 +1,4 @@
 {{- $url := or (.Get "url") (.Get 0) -}}
 {{- if $url -}}
-<img src="{{ $url | relURL }}">
+<img src="{{ relURL $url }}">
 {{- end -}}
