@@ -1,4 +1,4 @@
-baseURL = '/' 
+baseURL = '/'
 languageCode = 'en-nz'
 title = 'Gliding New Zealand Pilot Training Program'
 theme = 'book'
