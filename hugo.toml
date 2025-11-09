@@ -1,0 +1,16 @@
+baseURL = '/' 
+languageCode = 'en-nz'
+title = 'Gliding New Zealand Pilot Training Program'
+theme = 'book'
+enableRobotsTXT = true
+
+[params]
+	description = 'Prototype static site for the Gliding NZ training pathway.'
+	BookTheme = 'auto'
+	BookSearch = true
+	BookComments = false
+	BookSection = '*'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

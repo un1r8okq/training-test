@@ -1,0 +1,35 @@
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-link, #1b6ac9);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--color-link, #1b6ac9);
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.download-link:hover,
+.download-link:focus {
+  background-color: rgba(27, 106, 201, 0.08);
+  border-color: var(--color-link, #1b6ac9);
+  color: var(--color-link, #1b6ac9);
+}
+
+.download-link__icon {
+  display: inline-flex;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.download-link__text {
+  line-height: 1.25;
+}
+
+.download-link__meta {
+  margin-left: 0.5rem;
+  font-size: 0.85em;
+  color: var(--color-foreground-muted, #666);
+}
