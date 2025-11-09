@@ -2,7 +2,7 @@
 title = "Gliding New Zealand Pilot Training Program"
 +++
 
-![Glider staged for launch on a clear day](/img/soaring-journey.jpg "Gliding trainees preparing for a flight")
+{{< figure src="/img/soaring-journey.jpg" alt="Glider staged for launch on a clear day" title="Gliding trainees preparing for a flight" >}}
 
 Welcome to the prototype static site for the Gliding New Zealand training pathways. The structure mirrors the staged development journey from first dual flights through advanced endorsements, providing a clean hierarchy for future expansion.
 
